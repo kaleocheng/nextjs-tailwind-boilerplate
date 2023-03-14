@@ -1,0 +1,5 @@
+{
+    "javascript.format.enable": true,
+    "prettier.singleQuote": true,
+    "prettier.semi": false
+}
