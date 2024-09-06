@@ -1,5 +1,5 @@
-import { Divider, Link } from '@nextui-org/react'
 import { FaHeart } from 'react-icons/fa'
+import Link from 'next/link'
 
 export default function Index() {
   return (
@@ -20,7 +20,6 @@ export default function Index() {
         <p>!</p>
       </h1>
       <footer>
-        <Divider />
         <Link
           className="flex flex-row justify-center text-lg p-6"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

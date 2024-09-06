@@ -1,4 +1,3 @@
-import { Providers } from './providers'
 import '../styles/globals.css'
 
 export const metadata = {
@@ -14,13 +13,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>
-          <div className="bg-neutral-50">
-            <main className="flex justify-center gap-6">
-              <div className="">{children}</div>
-            </main>
-          </div>
-        </Providers>
+        <div className="bg-neutral-50">
+          <main className="flex justify-center gap-6">
+            <div className="">{children}</div>
+          </main>
+        </div>
       </body>
     </html>
   )
