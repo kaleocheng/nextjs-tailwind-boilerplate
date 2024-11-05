@@ -13,3 +13,10 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 For testing
+
+## Upgrade packages
+```
+yarn upgrade-interactive --latest
+npx syncyarnlock --save --keepPrefix
+yarn
+```
