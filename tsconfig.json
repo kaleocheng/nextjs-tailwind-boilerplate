@@ -12,6 +12,9 @@
         "./*"
       ]
     },
+    "types": [
+      "unplugin-icons/types/react",
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,

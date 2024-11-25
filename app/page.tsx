@@ -1,4 +1,5 @@
-import { FaHeart } from 'react-icons/fa'
+import PhHeartFill from '~icons/ph/heart-fill'
+
 import Link from 'next/link'
 
 export default function Index() {
@@ -24,7 +25,7 @@ export default function Index() {
           className="flex flex-row justify-center text-lg p-6"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         >
-          <FaHeart />
+          <PhHeartFill />
         </Link>
       </footer>
     </div>
